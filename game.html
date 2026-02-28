@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Dino - 간단한 버전</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="color-scheme" content="dark">
+</head>
+<body>
+    <main class="wrap">
+        <h1 class="visually-hidden">Chrome Dino 게임 (간단 구현)</h1>
+        <div class="hud">
+            <div>점수: <span id="score">0</span></div>
+            <div>최고: <span id="highscore">0</span></div>
+        </div>
+        <div class="difficulty">
+            난이도:
+            <button class="diff-btn" data-diff="easy">쉬움</button>
+            <button class="diff-btn active" data-diff="normal">보통</button>
+            <button class="diff-btn" data-diff="hard">어려움</button>
+        </div>
+        <canvas id="gameCanvas" width="800" height="200" aria-label="Dino 게임 캔버스"></canvas>
+        <div class="instructions">스페이스 또는 ↑: 점프 · Enter: 재시작 · 클릭/터치로 점프</div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
