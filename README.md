@@ -29,7 +29,7 @@ Chrome의 공룡 게임을 Python(Pygame)과 HTML5 Canvas로 구현한 프로젝
 
 ### Web 버전 실행
 
-1. [psu200000000-lang.github.io./rundino/](psu200000000-lang.github.io./rundino/)을 웹 브라우저에서 열면 됩니다.
+1. **[https://psu200000000-lang.github.io/rundino/](https://psu200000000-lang.github.io/rundino/)**을 웹 브라우저에서 열면 됩니다.
    - 또는 간단한 HTTP 서버 실행:
    ```bash
    python -m http.server 8000
